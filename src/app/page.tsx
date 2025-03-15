@@ -57,7 +57,7 @@ export default function Home() {
           
           {downloadStarted && (
             <div className={styles.downloadStarted}>
-              <p>Your download has started. If it doesn't begin automatically, 
+              <p>Your download has started. If it doesn&apos;t begin automatically, 
                 <a href="/app-release.apk" download> click here</a>.
               </p>
             </div>
