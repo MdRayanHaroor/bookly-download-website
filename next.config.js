@@ -6,6 +6,10 @@ const nextConfig = {
           source: '/app-release.apk',
           headers: [
             {
+              key: "Content-Security-Policy",
+              value: "script-src 'self'; object-src 'none';",
+            },
+            {
               key: 'Content-Type',
               value: 'application/vnd.android.package-archive',
             },
